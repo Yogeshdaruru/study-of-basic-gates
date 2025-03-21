@@ -81,9 +81,9 @@ xnor g7(c7,a,b);
 endmodule
 ![Screenshot 2024-12-20 200354](https://github.com/user-attachments/assets/184bea16-936e-4001-a53a-7aff37d0fe3f)
 
-Developed by:R.mounish vamsi kumar
+Developed by:Dharuru yogesh
 
-RegisterNumber:24003774
+RegisterNumber:24000330
 
 **Logic symbol & Truthtable**
 
