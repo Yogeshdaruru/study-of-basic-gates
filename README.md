@@ -55,25 +55,55 @@ Y= A⊕B
 
 2.	Compile and run the program.
 
-3.	Generate the RTL schematic and save the logic diagram.
+4.	Generate the RTL schematic and save the logic diagram.
 
-4.	Create nodes for inputs and outputs to generate the timing diagram.
+5.	Create nodes for inputs and outputs to generate the timing diagram.
 
-5.	For different input combinations generate the timing diagram.
+6.	For different input combinations generate the timing diagram.
 
 
 **PROGRAM**
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
+A B AND(G1) OR(G2) NOT(G3) NAND(G4) NOR(G5) EX-OR(G6) EX-NOR(G7)
 
- Developed by: RegisterNumber: 
- 
+GATE LEVEL MODEL:
+module log_gat(a,b,c1,c2,c3,c4,c5,c6,c7);
+input a,b;
+output c1,c2,c3,c4,c5,c6,c7;
+not g1(c1,a);
+and g2(c2,a,b);
+or g3(c3,a,b);
+nand g4(c4,a,b);
+nor g5(c5,a,b);
+xor g6(c6,a,b);
+xnor g7(c7,a,b);
+endmodule
+![Screenshot 2024-12-20 200354](https://github.com/user-attachments/assets/184bea16-936e-4001-a53a-7aff37d0fe3f)
+
+Developed by:R.mounish vamsi kumar
+
+RegisterNumber:24003774
+
 **Logic symbol & Truthtable**
+
+A B AND(G1) OR(G2) NOT(G3) NAND(G4) NOR(G5) EX-OR(G6) EX-NOR(G7)
+
+0 0 0 0 1 1 1 1 0
+
+0 1 0 1 1 1 0 1 1
+
+1 0 0 1 0 1 0 1 1
+
+1 1 1 1 0 0 0 0 0
+
+![Screenshot 2024-12-20 205233](https://github.com/user-attachments/assets/f8579fc0-0532-4a62-864b-aadc5053a50e)
 
 **RTL realization Output:** 
 
 **RTL**
 
-**Result:**
+![Screenshot 2024-12-20 200709](https://github.com/user-attachments/assets/55a41063-d644-48da-900e-c4e44e2c8658)
+**Result:Thus the different digital IC's are studied and truth table for different logic gates are verified**
 
 
